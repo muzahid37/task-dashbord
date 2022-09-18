@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-   <i class="     ">this is dashbord</i>
-    </div>
-  );
+    <>
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+      <button className='btn btn-primary'>button</button>
+    </>
+  )
 }
 
-export default App;
+
