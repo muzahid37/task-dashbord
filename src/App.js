@@ -1,14 +1,18 @@
 
 import './App.css';
+import MainContent from './Components/MainContent/MainContent';
+import Navbar from './Components/Sheared/Navbar';
+import Sidebar from './Components/Sheared/Sidebar';
 
 export default function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-      <button className='btn btn-primary'>button</button>
-    </>
+   <div className='App'>
+    <div className='appGlass'>
+      {/* <Navbar></Navbar> */}
+      <Sidebar></Sidebar>
+      <MainContent></MainContent>
+      </div>
+   </div>
   )
 }
 
